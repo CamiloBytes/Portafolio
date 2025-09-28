@@ -11,7 +11,7 @@ export const FirstComponent = () => {
             >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-w-6xl mx-auto">
                     <div className="space-y-6">
-                        <h1 className="text-4xl md:text-5xl font-bold leading-snug">
+                        <h1 className="text-3xl md:text-4xl font-bold leading-snug">
                             Camilo is a{" "}
                             <span className="text-purple-400">web designer</span>
                             <br />
@@ -33,7 +33,7 @@ export const FirstComponent = () => {
                         />
                         <div className="absolute top-6 right-6 w-40 h-40 border border-purple-400"></div>
                         <div className="absolute top-20 right-20 w-24 h-24 border border-purple-400"></div>
-                        <div className="absolute -bottom-12 w-100 left-1/3 md:left-auto md:right-0 transform -trangray-x-1/3 
+                        <div className="absolute -bottom-12 w-100 left-1/2 md:left-auto md:right-0 transform -trangray-x-1/2 
                         md:trangray-x-0 bg-gray-700 border border-gray-400 px-4 py-2 text-xs md:text-sm font-fira flex items-center gap-2">
                             <span className="text-purple-400 border-transparent">
                                 <FaSquareFull />
