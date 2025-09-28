@@ -1,9 +1,13 @@
 
-import './App.css'
+import { Portafolio } from './pages/Portafolio'
 
 function App() {
   return (
     <>
+
+
+      <Portafolio/>
+
     </>
   )
 }
