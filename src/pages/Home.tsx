@@ -1,4 +1,5 @@
 import { FirstComponent } from "@/components/FirstComponent"
+import { FooterComponent } from "@/components/FooterComponent"
 import { HeaderComponent } from "@/components/HeaderComponent"
 import { ProjectsComponent } from "@/components/ProjectsComponent"
 
@@ -6,18 +7,19 @@ export const Home = () => {
     return (
         <>
             <HeaderComponent
-                title="Camilo Dev 🚀"
+                title="Camilo"
                 links={[
-                    { label: "Inicio",  href: "#home" },
-                    { label: "Sobre mí", href: "#about" },
-                    { label: "Proyectos", href: "#projects" },
-                    { label: "Skill", href: "#skil" },
-                    { label: "Contacto", href: "#contact" },
+                    { label: "Home",  href: "#home" },
+                    { label: "Works", href: "#about" },
+                    { label: "About-me", href: "#projects" },
+                    { label: "Contacts", href: "#skil" },
                 ]}
             />
             <FirstComponent/>
             <ProjectsComponent/>
+            <FooterComponent title="Camilo" email="camiloandres02222@gmail.com"/>
         </>
+
     )
 }
 

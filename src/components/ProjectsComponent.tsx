@@ -3,7 +3,7 @@ import { projects } from "@/data/Projects"
 export const ProjectsComponent = () => {
     return (
         <>
-            <section id="projects" className="py-16 bg-gray-900 text-gray-100">
+            <section id="projects" className="py-16 bg-gray-800 text-gray-100">
                 <div className="container mx-auto px-6">
 
                     <div className="flex justify-between items-center mb-12">
@@ -17,15 +17,15 @@ export const ProjectsComponent = () => {
                     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                         {projects.map((project) => (
                             <div key={project.id}
-                                className="bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition transform hover:scale-[1.02] flex flex-col">
+                                className="bg-gray-800 border-1 overflow-hidden shadow-md hover:shadow-xl transition transform hover:scale-[1.02] flex flex-col">
 
-                                <div className="h-40 bg-gray-700 flex items-center justify-center">
+                                <div className="h-40 bg-gray-700 border-b-1 flex items-center justify-center">
                                     <img src={project.image} alt={project.title} className="max-h-32 object-contain" />
                                 </div>
 
-                                <div className="p-4 flex flex-col flex-1">
+                                <div className="  flex flex-col flex-1">
                                     
-                                    <div className="text-xs text-gray-400 mb-2">
+                                    <div className=" border-b-2 p-4 text-xs text-gray-400 mb-2">
                                         {project.tech.join(" · ")}
                                     </div>
 

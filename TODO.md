@@ -7,11 +7,11 @@
 
 ## 2. Diseño inicial
 - [X] Definir la **paleta de colores** y tipografía que me identifique
-- [ ] Crear el **layout base** con header, footer y navegación
+- [X] Crear el **componentes base** con header, footer y navegación
 - [ ] Preparar versión responsive (móvil, tablet y escritorio)
 
 ## 3. Secciones principales del portafolio
-- [ ] **Home / Landing Page** → Foto, nombre, frase que me represente, CTA
+- [X] **Home / Landing Page** → Foto, nombre, frase que me represente, CTA
 - [ ] **Sobre mí** → Historia, intereses, habilidades blandas
 - [ ] **Proyectos** → Mostrar mis trabajos con descripción, imágenes y links
 - [ ] **Habilidades** → Tecnologías y herramientas que manejo
@@ -20,7 +20,7 @@
 
 ## 4. Extras visuales
 - [ ] Animaciones suaves con **Framer Motion**
-- [ ] Hover effects en botones y tarjetas
+- [X] Hover effects en botones y tarjetas
 - [ ] Implementar **modo oscuro / claro**
 - [ ] Favicons e íconos personalizados
 
