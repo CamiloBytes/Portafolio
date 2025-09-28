@@ -1,12 +1,12 @@
+import { AppRouter } from "./router/AppRouter"
 
-import { Portafolio } from './pages/Portafolio'
 
 function App() {
   return (
     <>
 
 
-      <Portafolio/>
+      <AppRouter/>
 
     </>
   )

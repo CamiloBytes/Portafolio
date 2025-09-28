@@ -1,10 +1,8 @@
+import { FirstComponent } from "@/components/FirstComponent"
+import { HeaderComponent } from "@/components/HeaderComponent"
+import { ProjectsComponent } from "@/components/ProjectsComponent"
 
-import { InputDemo } from "@/components/InputDemo"
-import { ButtonComponent } from "../components/ButtonComponent"
-import { HeaderComponent } from "../components/HeaderComponent"
-
-
-export const Portafolio = () => {
+export const Home = () => {
     return (
         <>
             <HeaderComponent
@@ -13,11 +11,13 @@ export const Portafolio = () => {
                     { label: "Inicio",  href: "#home" },
                     { label: "Sobre mí", href: "#about" },
                     { label: "Proyectos", href: "#projects" },
+                    { label: "Skill", href: "#skil" },
                     { label: "Contacto", href: "#contact" },
                 ]}
             />
-            <ButtonComponent label="LIve"/>
-            <InputDemo placeholder="name" type="text" />
+            <FirstComponent/>
+            <ProjectsComponent/>
         </>
     )
 }
+
