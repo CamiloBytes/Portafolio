@@ -1,8 +1,16 @@
 import { FaSquareFull } from "react-icons/fa6"
 import imagen from "../assets/FotografíaNeón.png"
 import { ButtonComponent } from "./ButtonComponent"
+import { useNavigate } from "react-router-dom"
 
 export const FirstComponent = () => {
+    
+    const navigate = useNavigate()
+    const handleClick= ()=>{
+        navigate ("/contacts")
+
+    }
+    
     return (
         <>
             <section
@@ -22,7 +30,9 @@ export const FirstComponent = () => {
                         </p>
                         <ButtonComponent
                             label="Contact me !!"
-                            className="px-6 py-3 bg-transparent border border-gray-400 text-white font-fira hover:bg-gray-700 transition-colors text-sm md:text-base"
+                            className="px-6 py-3 bg-transparent border border-gray-400 text-white font-fira
+                            hover:bg-gray-700 transition-colors text-sm md:text-base"
+                            onClick={handleClick}
                         />
                     </div>
                     <div className="relative flex justify-center md:justify-end">

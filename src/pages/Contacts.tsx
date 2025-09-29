@@ -1,5 +1,9 @@
+import { FormComponents } from "@/components/FormComponents"
+
 export const Contacts = () => {
     return (
-        <div>Contacts</div>
+        <>
+            <FormComponents/>
+        </>
     )
 }

@@ -13,26 +13,26 @@
 ## 3. Secciones principales del portafolio
 - [X] **Home / Landing Page** → Foto, nombre, frase que me represente, CTA
 - [ ] **Sobre mí** → Historia, intereses, habilidades blandas
-- [ ] **Proyectos** → Mostrar mis trabajos con descripción, imágenes y links
+- [x] **Proyectos** → Mostrar mis trabajos con descripción, imágenes y links
 - [ ] **Habilidades** → Tecnologías y herramientas que manejo
 - [ ] **Educación / Experiencia** → Línea de tiempo con lo más relevante
 - [ ] **Contacto** → Formulario + links a correo y redes sociales
 
 ## 4. Extras visuales
-- [ ] Animaciones suaves con **Framer Motion**
+- [ ] Animaciones suaves 
 - [X] Hover effects en botones y tarjetas
 - [ ] Implementar **modo oscuro / claro**
 - [ ] Favicons e íconos personalizados
 
 ## 5. Funcionalidades extra
 - [ ] Botón para **descargar mi CV en PDF**
-- [ ] Integración con mis redes (GitHub, LinkedIn, Twitter)
+- [x] Integración con mis redes (GitHub, LinkedIn, Twitter)
 - [ ] Mostrar métricas simples (ejemplo: proyectos terminados)
 
 ## 6. Optimización y despliegue
 - [ ] Revisar accesibilidad (alt en imágenes, contraste, teclado)
 - [ ] Revisar performance con Lighthouse
-- [ ] Deploy en **Vercel** (dominio personalizado si es posible)
+- [ ] Deploy en **Vercel** (dominio personalizado )
 - [ ] Probar en varios navegadores y dispositivos
 
 ## 7. Futuras mejoras
