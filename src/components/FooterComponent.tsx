@@ -5,7 +5,7 @@ import { TbBrandReact } from "react-icons/tb";
 
 export const FooterComponent = ({ title, email }: IFooter) => {
     return (
-        <footer className="bg-gray-900 text-gray-300 border-t border-white/10">
+        <footer className="bg-gray-900 text-gray-300 border-t border-white/10 ">
             <section className="container mx-auto grid md:grid-cols-2 gap-8 px-8 py-10">
                 <div className="flex flex-col gap-2 items-star justify-center">
                     <div className="flex flex-row items-center gap-3 text-white font-fira text-xl">
