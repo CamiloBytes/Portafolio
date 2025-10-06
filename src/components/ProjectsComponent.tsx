@@ -29,21 +29,21 @@ export const ProjectsComponent = () => {
                                         {project.tech.join(" · ")}
                                     </div>
 
-                                    <h3 className="text-lg font-semibold text-white mb-2">
+                                    <h3 className="text-lg pl-2 font-semibold text-white mb-2">
                                         {project.title}
                                     </h3>
                                     
-                                    <p className="text-sm text-gray-400 flex-1">
+                                    <p className="text-sm pl-2 text-gray-400 flex-1">
                                         {project.description}
                                     </p>
-                                    <div className="mt-4 flex gap-2">
+                                    <div className="mt-4 p-2 flex gap-2">
                                         {project.links.map((link, idx) => (
                                             <a
                                                 key={idx}
                                                 href={link.url}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className={`px-3 py-1 rounded-md text-sm border transition 
+                                                className={`px-3 py-1  text-sm border transition 
                                                     ${link.type === "primary"
                                                         ? "border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white"
                                                         : "border-gray-500 text-gray-400 hover:bg-gray-600"}`}

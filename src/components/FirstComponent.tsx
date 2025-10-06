@@ -15,7 +15,7 @@ export const FirstComponent = () => {
         <>
             <section
                 id="about"
-                className="relative min-h-screen bg-gray-800 flex flex-col justify-start px-6 md:px-12 py-16 text-white"
+                className="relative min-h-screen bg-gray-900/95 flex flex-col justify-start px-6 md:px-12 py-16 text-white"
             >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-w-6xl mx-auto">
                     <div className="space-y-6">

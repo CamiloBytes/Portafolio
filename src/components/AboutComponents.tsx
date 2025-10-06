@@ -4,16 +4,12 @@ export const AboutComponents = () => {
     return (
         <>
             <section className="min-h-screen bg-gray-900/95 flex flex-col justify-start px-6 md:px-20 py-16 text-gray-200 font-mono">
-
-                <div className="mb-1">
-                    <h1 className="  px-3 py-1  font-bold text-lg ">
-                        <span className="text-purple-400">/</span>about-me
-                    </h1>
-                    <p className="text-sm text-gray-400 mt-2">Who am I?</p>
-                </div>
-
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="flex flex-col gap-6 text-[15px]">
+                        <h1 className="  px-1 py-1  font-bold text-3xl ">
+                            <span className="text-purple-400">/</span>about-me
+                        </h1>
+                        <p className="text-sm text-gray-400 mt-2">Who am I?</p>
                         <span className="text-gray-100 text-lg">Hello, I’m Camilo!</span>
                         <p className="text-gray-400">
                             I’m a self-taught front-end developer based in Barranquilla, Colombia.

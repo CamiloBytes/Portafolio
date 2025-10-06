@@ -2,9 +2,9 @@
 export const projects = [
     {
         id: 1,
-        title: "ChertNodes",
-        description: "Minecraft servers hosting",
-        tech: ["HTML", "SCSS", "Python", "Flask"],
+        title: "GreenPath",
+        description: "Ecommerce for farmers",
+        tech: ["HTML", "CSS", "Python", "Vanilla"],
         image: "/projects/chertnodes.png", // pon aquí tu imagen
         links: [
             { label: "Live", url: "#", type: "primary" },

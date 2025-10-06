@@ -23,7 +23,7 @@ export const HeaderComponent = ({ title, links }: IHeader) => {
                         <li key={index}>
                             <a
                                 href={link.href}
-                                className="text-[1.1rem] text-gray-300 hover:text-purple-400 transition-colors font-fira"
+                                className="text-2xs text-gray-300 hover:text-purple-400 transition-colors font-fira"
                             >
                                 {link.label}
                             </a>
